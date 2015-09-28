@@ -1,0 +1,66 @@
+/* CSS Document */
+body
+{
+    margin:auto;
+    width:450px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.checkForm
+{
+	width:420px;
+	height:auto;
+	float:left;
+	margin:10px;
+}
+
+.field
+{
+	height:auto;
+	margin:0;
+	padding:20px;
+}
+
+
+fieldset
+{  
+    margin-top:80px;
+    border-radius:8px;
+}
+
+.butn 
+{
+	-moz-box-shadow:inset 0px 1px 10px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 10px 0px #ffffff;
+	box-shadow:inset 0px 1px 10px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #efedfa), color-stop(1, #dae5f5) );
+	background:-moz-linear-gradient( center top, #efedfa 5%, #dae5f5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efedfa', endColorstr='#dae5f5');
+	background-color:#efedfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dbecff;
+	display:inline-block;
+	color:#4a424a;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.butn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dae5f5), color-stop(1, #efedfa) );
+	background:-moz-linear-gradient( center top, #dae5f5 5%, #efedfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dae5f5', endColorstr='#efedfa');
+	background-color:#dae5f5;
+}.butn:active {
+	position:relative;
+	top:1px;
+}
+
+.backhome
+{
+    margin-top:40px;
+	padding:0;
+	text-align:left;
+}
